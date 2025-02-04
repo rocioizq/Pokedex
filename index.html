@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="icon" href="src/images/pokeball-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="src/images/pokemon-logo.png" alt="Logo Pokemon">
+            </a>
+            <div class="search-bar">
+                <form class="search-pokemon" action="" >
+                    <input type="text" class="search-input" id="search-input" placeholder="Search for Pokemon by number or name" name="search-input">
+                    <button type="submit" aria-label="Search" class="search-btn"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pokemon-display">
+            <div class="pokemon-grid" id="pokemon-list"></div>
+            <div class="error-container"></div>
+            
+            <div class="pokemon-details-container" id="pokemon-details-container" style="display: none;">
+                <div class="pokemon-details" id="pokemon-details"></div>
+            </div>            
+        </div>
+        
+        <div class="pagination-container">
+            <button class="previous-btn" id="previous-btn">Previous</button>
+            <button class="next-btn" id="next-btn">Next</button>
+        </div>
+        
+    </main>
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
