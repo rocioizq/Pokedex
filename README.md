@@ -6,7 +6,7 @@ Una Pokédex interactiva desarrollada con HTML, CSS, JavaScript y testeada con C
 
 ## Características
 - Búsqueda de Pokémon por nombre o número.
-- Visualización de detalles como tipo, habilidades y estadísticas.
+- Visualización de detalles como tipo, habilidades y especie.
 - Interfaz amigable y responsiva.
 - Consumo de la API de Pokémon [PokeAPI](https://pokeapi.co/).
 
