@@ -1,22 +1,32 @@
-# Pokédex 
+# 🦸‍♂️ Pokedex - r/argentina-programa
 
-Una Pokédex interactiva desarrollada con HTML, CSS, JavaScript y testeada con Cypress, que permite buscar y visualizar información sobre diferentes Pokémon.
+A **Pokedex** application that allows users to explore various Pokémon and see their details, including abilities, stats, and type. The app is built with a clean, user-friendly interface and is fully responsive for all screen sizes.
 
-- Sitio web [Pokedex](https://pokedex-zeta-khaki-84.vercel.app/)
+🔗 **[Live Demo](https://pokedex-zeta-khaki-84.vercel.app/)**  
 
-## Características
-- Búsqueda de Pokémon por nombre o número.
-- Visualización de detalles como tipo, habilidades y estadísticas.
-- Interfaz amigable y responsiva.
-- Consumo de la API de Pokémon [PokeAPI](https://pokeapi.co/).
+## ✨ Features  
+✔️ **Pokémon search** – Allows users to search for Pokémon by name or type.  
+✔️ **Responsive design** – Fully optimized for both mobile and desktop screens.  
+✔️ **Detailed Pokémon info** – Displays stats, abilities, and type of each Pokémon.  
+✔️ **User-friendly UI** – Simple and modern design with an intuitive interface.
 
-##  Tecnologías Utilizadas
-- **JavaScript**
-- **HTML & CSS**
-- **Fetch API** para obtener datos desde PokeAPI.
+## 🛠️ Technologies Used  
+- **HTML5** – Structure and content elements.  
+- **CSS3** – Styling and layout with Flexbox for responsiveness.  
+- **JavaScript** – Handles API requests, data rendering, and interactivity.  
+- **Cypress** – For end-to-end testing and ensuring app functionality.
 
-## Capturas de Pantalla
+## 🚀 How to Run the Project Locally  
+1. Clone the repository:  
+    ```bash
+    git clone https://github.com/rocioizq/Pokedex.git
+    ```  
+2. Navigate to the project folder:  
+    ```bash
+    cd Pokedex
+    ```  
+3. Open the `index.html` file in your browser.  
 
-![Pokedex web](src/images/Pokedex-1.png)
+## 📷 Screenshots  
+![Pokedex web](src/images/Pokedex-1.png)  
 ![Pokemon details](src/images/pokedex-2.png)
-
