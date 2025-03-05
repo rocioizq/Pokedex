@@ -1,6 +1,6 @@
-import { showPokemon, showPokemonDetails } from './modules/pokemon.js';
-import { showError } from './modules/ui.js';
-import { searchPokemonData } from './modules/api.js';
+import { showPokemon, showPokemonDetails } from "./modules/pokemon.js";
+import { showError } from "./modules/ui.js";
+import { searchPokemonData } from "./modules/api.js";
 
 const searchInput = document.querySelector(".search-input");
 const searchBtn = document.querySelector(".search-btn");
